@@ -54,7 +54,8 @@ namespace findPathFordBellman
         {
             try
             {
-                string path = Application.StartupPath;
+                //string path = Application.StartupPath;
+                string path = @"./Input";
                 OpenFileDialog Odg = new OpenFileDialog()
                 {
                     FileName = "Select a File",

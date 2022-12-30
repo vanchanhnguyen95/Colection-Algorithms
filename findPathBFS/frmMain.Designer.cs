@@ -76,21 +76,21 @@ namespace findPathBFS
             // mniOpenFile
             // 
             this.mniOpenFile.Name = "mniOpenFile";
-            this.mniOpenFile.Size = new System.Drawing.Size(121, 22);
+            this.mniOpenFile.Size = new System.Drawing.Size(180, 22);
             this.mniOpenFile.Text = "OpenFile";
             this.mniOpenFile.Click += new System.EventHandler(this.mniOpenFile_Click);
             // 
             // mniReset
             // 
             this.mniReset.Name = "mniReset";
-            this.mniReset.Size = new System.Drawing.Size(121, 22);
+            this.mniReset.Size = new System.Drawing.Size(180, 22);
             this.mniReset.Text = "Reset";
             this.mniReset.Click += new System.EventHandler(this.mniReset_Click);
             // 
             // mniExit
             // 
             this.mniExit.Name = "mniExit";
-            this.mniExit.Size = new System.Drawing.Size(121, 22);
+            this.mniExit.Size = new System.Drawing.Size(180, 22);
             this.mniExit.Text = "Exit";
             this.mniExit.Click += new System.EventHandler(this.mniExit_Click);
             // 

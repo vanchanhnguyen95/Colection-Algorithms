@@ -169,6 +169,7 @@ namespace findPathBFS
 
         #endregion
 
+        #region Các hàm xử lý sự kiện
         private void btnExecute_Click(object sender, EventArgs e)
         {
             try
@@ -228,5 +229,7 @@ namespace findPathBFS
         {
             Reset();
         }
+
+        #endregion
     }
 }

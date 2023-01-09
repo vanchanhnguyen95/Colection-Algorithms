@@ -30,8 +30,6 @@ namespace findPathDijkstra
         private void InitializeComponent()
         {
             this.grbSelectEngine = new System.Windows.Forms.GroupBox();
-            this.txtNumberYen = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.rdoDijkstra = new System.Windows.Forms.RadioButton();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.mnuMain = new System.Windows.Forms.ToolStripMenuItem();
@@ -55,8 +53,6 @@ namespace findPathDijkstra
             // 
             // grbSelectEngine
             // 
-            this.grbSelectEngine.Controls.Add(this.txtNumberYen);
-            this.grbSelectEngine.Controls.Add(this.label1);
             this.grbSelectEngine.Controls.Add(this.rdoDijkstra);
             this.grbSelectEngine.Location = new System.Drawing.Point(12, 27);
             this.grbSelectEngine.Name = "grbSelectEngine";
@@ -64,23 +60,6 @@ namespace findPathDijkstra
             this.grbSelectEngine.TabIndex = 3;
             this.grbSelectEngine.TabStop = false;
             this.grbSelectEngine.Text = "Chọn cách tính";
-            // 
-            // txtNumberYen
-            // 
-            this.txtNumberYen.Enabled = false;
-            this.txtNumberYen.Location = new System.Drawing.Point(165, 77);
-            this.txtNumberYen.Name = "txtNumberYen";
-            this.txtNumberYen.Size = new System.Drawing.Size(100, 23);
-            this.txtNumberYen.TabIndex = 5;
-            this.txtNumberYen.Text = "10";
-            // 
-            // label1
-            // 
-            this.label1.Location = new System.Drawing.Point(7, 77);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(152, 31);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Số đường đi ngắn nhất muốn tìm:";
             // 
             // rdoDijkstra
             // 
@@ -244,8 +223,6 @@ namespace findPathDijkstra
         #endregion
 
         private System.Windows.Forms.GroupBox grbSelectEngine;
-        private System.Windows.Forms.TextBox txtNumberYen;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.RadioButton rdoDijkstra;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem mnuMain;
